@@ -15,7 +15,7 @@ namespace Food_Menu.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Menu");
         }
 
         public IActionResult Privacy()
